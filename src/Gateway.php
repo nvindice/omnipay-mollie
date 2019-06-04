@@ -76,6 +76,40 @@ class Gateway extends AbstractGateway
     }
 
     /**
+     * @return string
+     */
+    public function getPaymentMethod()
+    {
+        return $this->getParameter('paymentMethod');
+    }
+
+    /**
+     * @param  string $value
+     * @return $this
+     */
+    public function setPaymentMethod($value)
+    {
+        return $this->setParameter('paymentMethod', $value);
+    } 
+	
+    /**
+     * @return string
+     */
+    public function getLocale()
+    {
+        return $this->getParameter('locale');
+    }
+	
+    /**
+     * @param string $value
+     * @return $this
+     */
+    public function setLocale($value)
+    {
+        return $this->setParameter('locale', $value);
+    }
+	
+    /**
      * @param  array $parameters
      * @return FetchIssuersRequest
      */

@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/mollie",
+    "name": "nvindice/omnipay-mollie",
     "type": "library",
     "description": "Mollie driver for the Omnipay payment processing library",
     "keywords": [
@@ -53,5 +53,8 @@
         "check-style": "phpcs -p --standard=PSR2 src/",
         "fix-style": "phpcbf -p --standard=PSR2 src/"
     },
+	"replace": {
+		"omnipay/mollie":"5.*"
+	},
     "prefer-stable": true
 }
