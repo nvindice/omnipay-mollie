@@ -1,5 +1,5 @@
 {
-    "name": "nvindice/omnipay-mollie",
+    "name": "omnipay/mollie",
     "type": "library",
     "description": "Mollie driver for the Omnipay payment processing library",
     "keywords": [
